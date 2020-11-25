@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_500"
+        android:padding="5dp"
+        android:text="@string/vol"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        />
+    <ScrollView
+        android:layout_below="@id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy \n Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy \n Giggz, nyiri ‘4reigner Music Group’, inzu itunganya muzika isigaye ifasha Scillah. Amajwi yayo yatunganyijwe neza (Mastering) \n n’umugabo w’icyamamare Colin Leonard wakoze kuri Album z’abahanzi bako.
+Colin yakoze kuri Album yitwa\n ‘Work from home’ ya Justin Bieber, Homecoming ya Beyoncé, The Dime trap ya T.I n’izindi nyinshi.
+\n Lorem Ipsum has been the industry's standard \n muri ‘4reigner Music Group’, Lorem Ipsum has been the industry's standard  ‘Xtrim Records’ ari \n Lorem Ipsum has been the industry's standard  ’4reigner Motion’ ikora amashusho y’indirimbo.
+Scillah yahishuye ko ari mu biganiro n’ubuyobozi bw’iyi nzu y’umuziki. Mu kiganiro na IGIHE, yagize ati\n “Ntabwo \n turagirana amasezerano \n ariko ibiganiro bigeze kure n’ubuyobozi.”
+Lorem Ipsum has been the industry's standard Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy \n Umunya-Kenya wakoranye n’abahanzi b’amazina akomeye muri Afurika.
+Scillah kandi yaboneyeho kuvuga ko\n nta masezerano yari yaragiranye na Lick Lick Lorem Ipsum has been the industry's standard  na ‘4reigner Music Group’.
+Ati “Nta mLorem Ipsum has been the industry's standard  \n muri Mo Music, ni uko nakoranaga na Lick Lick nk’umwe mu ba producer beza.”
+\n Ni indirimbo igaruka ku nkuru y’urukundo
+Scillah wavuzwe mu nkuru z’urukundo n’abasore batandukanye barimo King James, \n Lick Lick n’abandi yahishuye ko nta musore afite bari gukundana kugeza ubu.
+Ati “Nta mukunzi mfite rwose, nayikoze kuko nifuzaga gukora akaririmbo k’urukundo ariko buri muntu \n Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy \n asaba urukundo, ariko rwose umusore we ntawe.”
+Scillah wari waratangaje ko mu mpera za 2020 \n Lorem Ipsum has been the industry's standard  \n Lorem Ipsum has been the industry's standard .
+gusura igihe kanda aha www.lorem.com"
+                android:autoLink="web"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_below="@id/title"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
